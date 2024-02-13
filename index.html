@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSCE 102 Valentines Day</title>
+<meta charset="utf-8">
+
+<script>
+name=prompt("What is your name?")
+alert(name);
+</script>
+
+<style>
+body{
+background-color: #FFADDC
+}
+
+h1{
+color: #AE3741;
+text-align: center;
+font-size: 75px;
+} 
+
+
+h2{
+color: #AE3741;
+text-align: center;
+font-size: 45px;
+}
+
+div{
+text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 onmouseover="this.innerHTML='Happy Valentines Day '+ name + '!'">Happy Valentines Day!</h1>
+
+<div>
+<img src="tree.jpg" alt="Heart Tree" height="400" width="1024">
+</div>
+
+<h2>I think you're pretty cool. Will you be my Valentine?</h2>
+
+
+<h2 style="font-size:60px;"><span onclick="getElementById('answer').innerHTML='Good choice! Whoever said Disneyland was the happiest place on Earth has obviously never been in the same room as you!';">Yes</span> &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span onclick="getElementById('answer').innerHTML='That is really mean. Stop being lame and click Yes.'"> No </span>
+
+<h2 id="answer"> </h2>
+
+</body>
+</html>
